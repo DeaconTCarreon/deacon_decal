@@ -2,7 +2,7 @@
 # cd ~/Desktop
 
 # 2) What does ~/ mean?
-# It helps you change directories to a specific folder of files, not a file itself.
+# ~/ marks the beginning of the path to the current directory.
 
 # 3) What's the difference between and abolute and a relative path in your terminal?
 # An absolute path is the direct path from your system origin to your current file, while a relative path is just the file's path from the cwd.
