@@ -26,4 +26,4 @@
 # Cloning a repository creates a copy of it that you can make your own edits and changes to, while pulling a repository just puts the original, un-editable version on your computer.
 
 # 10) Tell me a fun fact!
-# Just last December on Christmas Eve, the Parker Solar Probe became the fastest man-made object ever at 430,000 mph!
+# Just last December on Christmas Eve, the Parker Solar Probe became the fastest man-made object ever at 430,000 mph! That's Fast!
