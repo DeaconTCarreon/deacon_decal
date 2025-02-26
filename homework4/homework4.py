@@ -41,8 +41,8 @@ print(stridedList(initialList))
 def stride_slice(initialList):
     third_initialList = initialList[2:length-1:3]
     final_initialList = third_initialList[::-1]
-    return(final_initialList)
-print(stride_slice(initialList))
+    return(final_initialList) # Syntax error: used brackets instead of the parentheses, which are shown.
+print(stride_slice(initialList)) # Define your variables within your function, and use the input of the matrix
 
 #As stated before, with any inputed length of the entire list!
 
@@ -67,6 +67,8 @@ print(matrix_list)
 
 #3.3
 
+# Effor: Define all new lists within the function itself, otherwise it won't know.
+
 def sums_2d_list(matrix_list):
     int_elements = []
     for row_list in matrix_list:
@@ -75,8 +77,5 @@ def sums_2d_list(matrix_list):
                 int_elements.append(element)
     return sum(int_elements)
 
-Sum = sums_2d_list(matrix_list)
+Sum = sums_2d_list(matrix_list) # you can't plug in the function into print, it can only work if you set a variable to it.
 print(Sum)
-
-# Debugging summary: you can't plug in the function into print, it can only work if you set a variable to it.
-# Define your functions within your function, and use the input of the matrix
